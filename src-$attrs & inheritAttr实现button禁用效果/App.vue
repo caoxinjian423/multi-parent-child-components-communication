@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Parent></Parent>
+    <Button disabled></Button>
   </div>
 </template>
 
 <script>
 import Parent from './components/Parent'
+import Button from './components/Button';
 
 export default {
   name: 'App',
   components: {
     Parent,
+    Button
   }
 }
 </script>
